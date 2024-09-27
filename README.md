@@ -29,13 +29,18 @@ Workflow includes all jobs:
 
 Variables are defined in a separate variables file.
 Resources are separated into different files for better organization.
-Verification (10 points)
+
+**5. Verification**
 
 Terraform plan is executed successfully for GithubActionsRole
+Done
 Terraform plan is executed successfully for a terraform state bucket
-Additional Tasks (10 points)
+Done
 
-Documentation (5 points)
+**Additional Tasks**
+
+**6. Documentation**
 Document the infrastructure setup and usage in a README file.
-Submission (5 points)
+
+**7. Submission**
 A GitHub Actions (GHA) pipeline is passing
