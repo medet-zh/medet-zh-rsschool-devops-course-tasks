@@ -3,6 +3,8 @@
 1. MFA User configured 
 I added user rs.admin and configured MFA
 
+![alt text](https://github.com/medet-zh/medet-zh-rsschool-devops-course-tasks/blob/main/image.jpg?raw=true)
+
 
 2. Bucket and GithubActionsRole IAM role configured (30 points)
 
