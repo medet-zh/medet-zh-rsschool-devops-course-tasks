@@ -1,28 +1,46 @@
 **Submission**
 
-1. MFA User configured 
+**1. MFA User configured** 
 I added user rs.admin and configured MFA
 
+![alt text](https://github.com/medet-zh/medet-zh-rsschool-devops-course-tasks/blob/main/pictures/MFA%20User%20configured.jpg?raw=true)
 
-2. Bucket and GithubActionsRole IAM role configured (30 points)
+
+**2. Bucket and GithubActionsRole IAM role configured**
 
 Terraform code is created and includes:
-A bucket for Terraform states
-IAM role with correct Identity-based and Trust policies
-Github Actions workflow is created (30 points)
+  A bucket for Terraform states:
+    I created Terraform S3 backend and dynamoDb for locking (I add extra permision for GithubActionsRole).
 
-Workflow includes all jobs
-Code Organization (10 points)
+  IAM role with correct Identity-based and Trust policies:
+    I created role with trusted policy.
+
+
+**3. Github Actions workflow is created**
+
+Workflow includes all jobs:
+  Terraform fmt
+  Terraform init
+  Terraform validate
+  Terraform plan
+  Terraform apply
+
+**4. Code Organization**
 
 Variables are defined in a separate variables file.
 Resources are separated into different files for better organization.
-Verification (10 points)
+
+**5. Verification**
 
 Terraform plan is executed successfully for GithubActionsRole
+Done
 Terraform plan is executed successfully for a terraform state bucket
-Additional Tasks (10 points)
+Done
 
-Documentation (5 points)
+**Additional Tasks**
+
+**6. Documentation**
 Document the infrastructure setup and usage in a README file.
-Submission (5 points)
+
+**7. Submission**
 A GitHub Actions (GHA) pipeline is passing
