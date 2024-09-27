@@ -44,3 +44,6 @@ Document the infrastructure setup and usage in a README file.
 
 **7. Submission**
 A GitHub Actions (GHA) pipeline is passing
+
+![alt text](https://github.com/medet-zh/medet-zh-rsschool-devops-course-tasks/blob/main/pictures/GHA.png?raw=true)
+
