@@ -1,6 +1,3 @@
-#provider "aws" {
-#  region = "us-east-2"
-#}
 
 #VPC
 resource "aws_vpc" "rs_school_vpc" {
