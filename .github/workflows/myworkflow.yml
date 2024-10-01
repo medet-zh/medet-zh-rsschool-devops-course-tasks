@@ -1,4 +1,4 @@
-name: "AWS Terraform GitHUB action"
+name: "AWS-Terraform-GitHUB-action"
 on:
   push:
     branches:
