@@ -1,6 +1,6 @@
 **Submission**
 
-![example event parameter](https://github.com/medet-zh/medet-zh-rsschool-devops-course-tasks/blob/main/.github/workflows/myworkflow.yml/badge.svg?event=push)
+![example event parameter](https://github.com/medet-zh/medet-zh-rsschool-devops-course-tasks/blob/main/.github/workflows/AWS-Terraform-GitHUB-action/badge.svg?event=push)
 
 **1. MFA User configured** 
 I added user rs.admin and configured MFA
